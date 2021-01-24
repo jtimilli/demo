@@ -1,0 +1,114 @@
+body {
+  padding: 20px;
+  background-image: url("/image/overlook.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#head {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  position: fixed;
+  color: white;
+  font-size: 50px;
+  top: -30px;
+  left: 450px;
+}
+
+.container {
+  position: relative;
+  top: 150px;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 3px 3px 10px 10px gray;
+}
+
+.firstSection {
+  position: relative;
+  height: 400px;
+}
+
+.secondSection {
+  height: 200px;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+}
+
+.thirdSection {
+  height: 200px;
+  background-color: #f7f6f5;
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.fourthSection {
+  height: 1800px;
+  background-color: #1e1f23;
+}
+
+.galleryOne {
+  width: 80%;
+  background-color: #121315;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-top: 70px;
+  padding-top: 5px;
+}
+
+.galleryHeadingContainer {
+  text-align: center;
+
+  /* border: 1px solid white; */
+}
+
+.galleryHeading {
+  color: white;
+  font-size: 30px;
+}
+
+#line {
+  width: 10%;
+}
+
+.gallerySubHeading {
+  color: white;
+  font-size: 15px;
+}
+.imageGrid {
+  /* border: 1px solid white; */
+  height: 415px;
+}
+
+.imgBox {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.galleryTwo {
+  /* border: 1px solid white; */
+  height: 1000px;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.galBox {
+  color: white;
+  /* border: 0.5px solid white; */
+  height: 33%;
+  width: 50%;
+  float: left;
+}
+
+.boxColor {
+  background-color: white;
+}
+
+.boxColor > p {
+  font-size: 19px;
+  color: black;
+}
