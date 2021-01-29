@@ -3,6 +3,7 @@ body {
   background-image: url("/image/overlook.jpg");
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 40px;
 }
 
 #head {
@@ -19,7 +20,7 @@ body {
   position: relative;
   top: 150px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   box-shadow: 3px 3px 10px 10px gray;
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 .fourthSection {
-  height: 1800px;
+  height: 1670px;
   background-color: #1e1f23;
 }
 
@@ -102,6 +103,7 @@ body {
   height: 33%;
   width: 50%;
   float: left;
+  display: flex;
 }
 
 .boxColor {
@@ -111,4 +113,30 @@ body {
 .boxColor > p {
   font-size: 19px;
   color: black;
+  text-align: left;
+}
+
+.boxColor > h3 {
+  color: black;
+  text-align: left;
+}
+.textContainer {
+  width: 60%;
+  margin: auto;
+  border: 1px solid black;
+  vertical-align: middle;
+  color: black;
+}
+
+.galBox:nth-child(3) {
+  background-color: #1e1f23;
+}
+
+#boxBox {
+  color: white;
+}
+
+.symbols {
+  text-align: center;
+  font-size: 100px;
 }
